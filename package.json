@@ -1,0 +1,23 @@
+{
+  "name": "bddframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags \"@smoke\"",
+  "test:regression": "cucumber-js  --tags \"@regression\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "playwright": "^1.63.0",
+    "ts-node": "^10.9.2"
+  }
+}

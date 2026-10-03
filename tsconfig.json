@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+   // "moduleResolution": "node",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "resolveJsonModule": true,
+
+    "sourceMap": true,
+    //"outDir": "dist",
+
+    "types": [
+      "node",
+      "@cucumber/cucumber",
+      "@playwright/test"
+    ]
+  },
+
+  "include": [
+    "hooks/**/*.ts",
+    "pages/**/*.ts",
+    "step-definitions/**/*.ts",
+    "support/**/*.ts",
+    "utils/**/*.ts",
+    "test-data/**/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "reports",
+    "videos",
+    "dist"
+  ]
+}
