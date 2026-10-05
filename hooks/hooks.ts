@@ -12,7 +12,7 @@ Before(async function (this: CustomWorld) {
     console.log('>>> Before hook started');
 
     this.browser = await chromium.launch({
-        headless: false
+        headless: true
     });
 
     console.log('>>> Browser created');
