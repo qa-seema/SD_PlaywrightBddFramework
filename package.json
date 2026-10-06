@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test1": "echo \"Error: no test specified\" && exit 1",
     "test": "cucumber-js",
     "test:smoke": "cucumber-js --tags \"@smoke\"",
   "test:regression": "cucumber-js  --tags \"@regression\""

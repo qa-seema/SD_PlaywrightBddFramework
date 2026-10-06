@@ -1,6 +1,6 @@
 Feature: lead functionality
 
-@lead
+@smoke
 Scenario: lead creation 
 Given user should be on login page
 When user enters the valid credential
